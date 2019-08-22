@@ -1,0 +1,24 @@
+<!--pages/videos/videos.wxml-->
+<swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="3000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class='v-content'>
+<block wx:for='{{videos}}'>
+  <view class='v-one {{index % 2 ? "fr" : ""}}' bindtap="videoPlay" data-video="{{item.video}}" data-title="{{item.name}}" data-desc='{{item.desc}}'>
+    <image class='v-img' src=""></image>
+    <view class='v-title'>{{item.name}}</view>
+    <view class='v-desc'>{{item.desc}}</view>
+  </view>
+  </block>
+  <view class='v-one' bindtap="selectVideo">
+    <image class='v-img' src=""></image>
+    <view class='v-title'>自定义视频</view>
+    <view class='v-desc'>选择拍摄或相册中的视频</view>
+  </view>
+</view>

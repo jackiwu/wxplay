@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com":"/colorui/components/cu-custom"
+  },
+  "component":true,
+  "navigationStyle": "custom"
+}

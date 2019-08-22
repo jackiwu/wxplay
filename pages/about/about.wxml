@@ -1,0 +1,21 @@
+<!--pages/about/about.wxml-->
+<cum bgColor='bg-red'>
+  <view slot='content'>关于</view>
+</cum>
+<view class='bg'></view>
+<view class='hidden'>
+  <view class='yuan'>
+    <view class='about-content'>
+      <view class='content'>该小程序用于个人学习之用，主要用来学习小程序的背景音频API与视频API</view>
+      <view class='content'>该小程序所有音频来自于网易云音乐</view>
+      <view class='content'>如有版权相关，使用反馈之疑问请联系我。
+        <text>  \nQQ邮箱：917436062@qq.com。</text>
+        <text>\nQQ：917436062。</text>
+        <text>\n微信：wu917436062</text>
+      </view>
+      <view class='content'>该小程序基于colorUI组件进行开发。
+        <text>\n GitHub：https://github.com/weilanwl/ColorUI</text>
+      </view>
+    </view>
+  </view>
+</view>

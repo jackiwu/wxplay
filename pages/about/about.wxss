@@ -1,0 +1,53 @@
+/* pages/about/about.wxss */
+page{
+  background: #fff;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+.bgColor{
+  background: #1296db;
+  opacity: .7;
+}
+.bg{
+  width: 750rpx;
+  height: 500rpx;
+  background: #1296db;
+  opacity: .7;
+}
+.yuan{
+  width: 1023rpx;
+  min-height: 902rpx;
+  background: #fff;
+  position: absolute;
+  left: -137rpx;
+  top: 300rpx;
+  z-index: 1;
+  border-radius: 49%;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  
+}
+.about-content{
+  width: 750rpx;
+  overflow: auto;
+  padding: 161rpx 20rpx 0 30rpx;
+  box-sizing: border-box;
+}
+.content{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 44rpx;
+  font-size: 30rpx;
+  line-height: 54rpx;
+}
+.hidden{
+  position: absolute;
+  top: 0rpx;
+  left: 0;
+  width: 750rpx;
+  height: 1100rpx;
+  overflow: hidden;
+}

@@ -1,0 +1,27 @@
+/* pages/videos/videos.wxss */
+
+page {
+  background: #fff;
+}
+
+.v-content {
+  width: 750rpx;
+  padding: 30rpx;
+  
+}
+
+.v-one {
+  width: 48%;
+  display: inline-block;
+  margin-bottom: 20rpx;
+
+}
+
+.v-img {
+  width: 100%;
+  height: 240rpx;
+  background: var(--gradualPink);
+}
+.fr{
+  float: right;
+}

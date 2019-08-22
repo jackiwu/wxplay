@@ -1,0 +1,8 @@
+<!--pages/playVideo/playVideo.wxml-->
+<cum is-back>
+<view slot='backText'>返回</view>
+  <view slot='content'>播放视频</view>
+</cum>
+<video id='myVideo' src="{{src}}" class='video'></video>
+<view class='title'>{{title}}</view>
+<view class="desc"> {{desc}}</view>
